@@ -1,0 +1,34 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+body {
+    background-color: #ded9d9 !important;
+}
+
+.card {
+    box-shadow: 2px 1px 17px -6px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#2a9055;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.alert-absolute {
+    position: absolute;
+    top:180px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+}
